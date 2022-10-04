@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>NJ Wedding</title>
+
+      <style>
+        * {
+          background-color: #d4c9e7;
+          font-family: 'Consolas', sans-serif;
+        }
+
+        .buttons {
+          width: 50%;
+        }
+
+        .buttons a button {
+          background-color: #ccc;
+          width: 10%;
+        }
+      </style>
     </head>
     <body>
-        <p>Please, select your language:</p>
+        <p>
+          Please, select your language:
+        </p>
 
-        <img src="/images/spain.svg" alt="Bandera española">
-        <form action="" id="language-select">
-          <button><a href="EN/index-en.html">English</a></button>
-          <button>
-            <a href="ES/index-es.html">Español</a>
-          </button>
-          <button><a href="TR/index-tr.html">Türkçe</a></button>
-        </form>
+        
+
+        <div class="buttons">
+          <a href="/EN/index-en.html">
+            <button>
+              English
+              <img src="/images/uk.svg" alt="UK flag" width="20em">
+            </button>
+          </a>
+
+          <a href="/ES/index-es.html">
+            <button>
+              Español
+              <img src="/images/spain.svg" alt="Spain flag" width="20em">
+            </button>
+          </a>
+
+          <a href="/TR/index-tr.html">
+            <button>
+              Türkçe
+              <img src="/images/turkey.svg" alt="Turkey flag" width="20em">
+            </button>
+          </a>
+        </div>
     </body>
 </html>
