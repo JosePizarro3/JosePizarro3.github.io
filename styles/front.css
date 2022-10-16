@@ -1,0 +1,41 @@
+/* Reset */
+* {
+	/* Alternative box model for everything */
+	box-sizing: border-box;
+
+	/* Reset padding and margin on all elements */
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #d4c9e7;
+	font-size: 32px;
+}
+
+body {
+	font-family: 'Caveat', sans-serif;
+    line-height: 1.55;
+	color: rgba(33, 33, 33, 0.85);
+}
+
+header {
+	text-align: center;
+}
+
+.container {
+	position: fixed;
+	top: 25%;
+}
+
+.container h1 {
+	margin-bottom: 1.5rem;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+.container a img {
+	width: 10%;
+}
