@@ -89,6 +89,6 @@ li:last-child {
 }
 
 /* Add styles for the active link */
-.menu li a:active {
+.menu li a:current {
   font-weight: bold; /* Or use text-decoration: underline; */
 }
