@@ -51,6 +51,7 @@ body {
 .menu {
   background-color: #193141;
   overflow: hidden;
+  font-size: 14px;
 }
 
 .menu ul {
