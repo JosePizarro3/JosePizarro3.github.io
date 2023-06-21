@@ -81,7 +81,7 @@ body {
 }
 
 /* Add styles for the active link */
-.menu li a:current {
+.menu li a.active {
   font-weight: bold; /* Or use text-decoration: underline; */
 }
 
