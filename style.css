@@ -44,6 +44,10 @@ body {
   margin-right: 30px;
 }
 
+.social a i:hover {
+  color: #d2bfb7;
+}
+
 /* Menu */ 
 .menu {
   background-color: #193141;
@@ -63,10 +67,6 @@ body {
 }
 
 /* Remove margin-right from the last item in the list */
-li:last-child {
-  margin-right: 0;
-}
-
 .menu li a {
   display: flex;
   color: #f2f2f2;
@@ -77,29 +77,10 @@ li:last-child {
 
 .menu li a:hover {
   background-color: #f2f2f2;
-  color: #193141
+  color: #222222
 }
 
 /* Add styles for the active link */
 .menu li a:current {
   font-weight: bold; /* Or use text-decoration: underline; */
-}
-
-footer {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.arrow-up {
-  display: inline-block;
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border-radius: 50%;
-  text-decoration: none;
-}
-
-.arrow-up i {
-  transform: rotate(-90deg);
 }
