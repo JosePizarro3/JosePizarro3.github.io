@@ -1,7 +1,10 @@
-const light = document.querySelector(".light");
-const grid = document.querySelector("#hex-grid")
+document.addEventListener("DOMContentLoaded", function() {
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll(".menu a");
 
-grid.addEventListener("mousemove", function(e){
-    light.style.left = `${e.clientX}px`;
-    light.style.top = `${e.clientY}px`;
+menuItem.forEach(function(item) {
+    if (currentLocation === item.href) {
+    item.classList.add("active");
+    }
+});
 });
