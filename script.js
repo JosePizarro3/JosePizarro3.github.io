@@ -15,12 +15,15 @@ function downloadResume() {
 
 window.addEventListener("scroll", function() {
     const menuHeader = document.querySelector(".menu-header");
+    const menuHeaderIcon = document.querySelector(".menu-header .icon");
     const scrollPosition = window.scrollY;
   
     if (scrollPosition > 0) {
       menuHeader.classList.add("scrolled");
+      menuHeaderIcon.classList.add("covered");
     } else {
       menuHeader.classList.remove("scrolled");
+      menuHeaderIcon.classList.remove("covered");
     }
   });
 

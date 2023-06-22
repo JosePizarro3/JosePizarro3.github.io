@@ -27,9 +27,14 @@ body {
   background-color: #222222;
 }
 
-.icon {
+.menu-header .icon {
   display: flex;
   align-items: center;
+  transition: opacity 1.5s ease; /* Add transition property */
+}
+
+.menu-header .icon.covered {
+  opacity: 0;
 }
 
 .icon img {
