@@ -89,7 +89,7 @@ body {
 /* Summary section */
 .summary {
   display: flex; 
-  height: 40vh; /* Set the height to occupy half the viewport */
+  height: 50vh; /* Set the height to occupy half the viewport */
 }
 
 .summary-item {
@@ -121,7 +121,6 @@ body {
 
 .subpartA {
   flex: 0.5; /* Take up remaining vertical space */
-  /* Additional styles for subpartA */
 }
 
 .subpartA h3 {
@@ -150,4 +149,8 @@ body {
 
 .download-button i {
   margin-right: 1rem;
+}
+
+.download-button:hover {
+  background-color: #222222;
 }
