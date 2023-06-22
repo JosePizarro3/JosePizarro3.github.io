@@ -46,7 +46,7 @@ body {
   margin-left: 20px; /* Change margin-left to margin-right */
 }
 
-.menu li a {
+.menu ul li a {
   display: flex;
   color: #f2f2f2;
   text-align: center;
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
 }
 
-.menu li a:hover {
+.menu ul li a:hover {
   background-color: #f2f2f2;
   color: #222222;
   text-decoration: underline;
@@ -62,7 +62,7 @@ body {
   text-underline-offset: 5px;
 }
 
-.menu li a.active { /* Add styles for the active link */
+.menu ul li a.active { /* Add styles for the active link */
   text-decoration: underline;
   text-underline-offset: 5px;
 }
@@ -135,6 +135,7 @@ body {
   border-radius: 48px;
   object-fit: cover;
   margin-top: 1rem;
+  margin-right: 3rem;
 }
 
 .part2 {
@@ -151,7 +152,7 @@ body {
 }
 
 .subpartA p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
@@ -164,7 +165,7 @@ body {
   color: #f2f2f2;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   font-size: 1rem;
