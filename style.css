@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
+  height: 100vh;
   position: relative;
 }
 
@@ -24,18 +25,18 @@ body {
 
 .headers-container h1 {
   color: #d2bfb7;
-  font-size: 48px;
+  font-size: 84px;
 }
 
 .headers-container h2 {
   color: #d2bfb7;
   font-style: italic;
-  font-size: 30px;
+  font-size: 48px;
 }
 
 .social {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 48px;
 }
 
 .social a i {
@@ -51,7 +52,7 @@ body {
 .menu {
   background-color: #193141;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .menu ul {
@@ -85,14 +86,68 @@ body {
   font-weight: bold; /* Or use text-decoration: underline; */
 }
 
+/* Summary section */
 .summary {
-  text-align: center;
+  display: flex; 
+  height: 40vh; /* Set the height to occupy half the viewport */
 }
 
-.summary h3 {
-  font-size: 22px;
+.summary-item {
+  flex: 1; /* Distributes equal width to each item */
+  margin-top: 2rem;
+  margin-right: 4rem;
 }
 
-.summary p {
-  font-size: 16px;
+.part1 {
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: flex-start; /* Aligns content to the top */
+  margin-right: 4rem;
+}
+
+.part1 img {
+  max-width: 20rem;
+  max-height: 20rem;
+  width: auto;
+  height: auto;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column; /* Stack subparts vertically */
+}
+
+.subpartA {
+  flex: 0.5; /* Take up remaining vertical space */
+  /* Additional styles for subpartA */
+}
+
+.subpartA h3 {
+  font-size: 18px;
+}
+
+.subpartA p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.subpartB {
+  display: flex;
+}
+
+.download-button {
+  background-color: #193141;
+  color: #f2f2f2;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.download-button i {
+  margin-right: 1rem;
 }

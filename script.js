@@ -8,3 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+function downloadResume() {
+    window.location.href = 'components/CV_JoseMPizarro.pdf'
+}
