@@ -227,3 +227,79 @@ body {
 #scrollToTop:hover {
   background-color: #222222;
 }
+
+/* Smaller header for other sections rather than Home */
+.small-headers-container {
+  background-color: #193141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: 30vh;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.small-headers-container .headers {
+  z-index: 1;
+  text-align: center;
+}
+
+.small-headers-container h1 {
+  color: #d2bfb7;
+  font-size: 3rem;
+}
+
+.social {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.social a i {
+  color: #f2f2f2;
+  margin-right: 2rem;
+}
+
+.social a i:hover {
+  color: #d2bfb7;
+}
+
+.subpage-info {
+  text-align: left;
+  height: 100vh;
+  padding: 2rem;
+  margin-left: 5rem;
+  z-index: 10;
+}
+
+.subpage-info.contact {
+  height: 50vh;
+}
+
+.subpage-info h1 {
+  font-size: 3rem;
+  color: #193141;
+}
+
+.subpage-info h3 {
+  font-size: 1.5rem;
+}
+
+.general-info {
+  margin-bottom: 2.5rem;
+}
+
+.general-info p, .email-info p {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-bottom: -2rem;
+}
+
+.general-info p a {
+  text-decoration: none;
+  color: #D08770;
+}
+
+.email-info {
+  margin-bottom: 3.5rem;
+}
