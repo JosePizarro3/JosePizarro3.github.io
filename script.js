@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const menuItem = document.querySelectorAll(".menu ul li a");
   
     menuItem.forEach(function(item) {
-      if (currentPathname === item.pathname || currentPathname === '') {
+      if (currentPathname === item.pathname || currentPathname === `${item.pathname}` || (currentPathname === "" && item.pathname === "/index.html")) {
         item.classList.add("active");
       }
     });
