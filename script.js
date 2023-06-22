@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const currentLocation = location.href;
+    const currentPathname = location.pathname;
     const menuItem = document.querySelectorAll(".menu a");
 
     menuItem.forEach(function(item) {
-        if (currentLocation === item.href) {
+        if (currentPathname === item.pathname) {
             item.classList.add("active");
         }
     });
