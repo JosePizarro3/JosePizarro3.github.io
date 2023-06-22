@@ -10,11 +10,21 @@ body {
 
 /* Top menu with icon */ 
 .menu-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   background-color: #193141;
   overflow: hidden;
   font-size: 1.2rem;
   justify-content: space-between;
+  z-index: 100; /* Ensure it's above other elements */
+  transition: background-color 1.5s ease; /* Add transition property */
+}
+
+.menu-header.scrolled {
+  background-color: #222222;
 }
 
 .icon {
@@ -111,7 +121,8 @@ body {
 /* Summary section */
 .summary {
   display: flex; 
-  height: 50vh; /* Set the height to occupy half the viewport */
+  height: 60vh; /* Set the height to occupy half the viewport */
+  z-index: 10;
 }
 
 .summary-item {
@@ -176,5 +187,43 @@ body {
 }
 
 .download-button:hover {
+  background-color: #222222;
+}
+
+/* Footer section */
+#footer {
+  background-color: #222222;
+  color: #888888;
+  font-size: 1rem;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#scrollToTop {
+  font-size: 2rem;
+  display: inline-block;
+  border: none;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 1s;
+  position: absolute;
+  left: 50%;
+  bottom: 75%;
+  transform: translateX(-50%);
+}
+
+#scrollToTop:hover {
   background-color: #222222;
 }
