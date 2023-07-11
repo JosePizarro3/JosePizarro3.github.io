@@ -283,10 +283,6 @@ body {
   z-index: 10;
 }
 
-.subpage-info.contact {
-  height: 70vh;
-}
-
 .subpage-info.research figure {
   text-align: center;
   margin-top: 1rem;
