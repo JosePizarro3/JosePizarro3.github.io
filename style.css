@@ -59,6 +59,7 @@ body {
 
 .menu ul li {
   margin-left: 20px; /* Change margin-left to margin-right */
+  margin-right: 30px;
 }
 
 .menu ul li a {
@@ -275,6 +276,8 @@ body {
   text-align: left;
   height: 100vh;
   padding: 2rem;
+  padding-left: 200px;
+  padding-right: 200px;
   margin-left: 5rem;
   z-index: 10;
 }
