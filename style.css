@@ -127,7 +127,8 @@ body {
 /* Summary section */
 .summary {
   display: flex; 
-  height: 60vh; /* Set the height to occupy half the viewport */
+  overflow: hidden;
+  margin-bottom: 10rem;
   z-index: 10;
 }
 
@@ -274,20 +275,16 @@ body {
 
 .subpage-info {
   text-align: left;
-  height: 100vh;
+  overflow: hidden;
   padding: 2rem;
-  padding-left: 200px;
-  padding-right: 200px;
-  margin-left: 5rem;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 5rem;
   z-index: 10;
 }
 
 .subpage-info.contact {
-  height: 60vh;
-}
-
-.subpage-info.research {
-  height: 200vh;
+  height: 70vh;
 }
 
 .subpage-info.research figure {
@@ -342,6 +339,14 @@ body {
 .subpage-info ul li a {
   text-decoration: none;
   color: #D08770;
+}
+
+#p-news {
+  text-align: justify;
+}
+
+.news-date {
+  font-size: 1rem;
 }
 
 .general-info {
