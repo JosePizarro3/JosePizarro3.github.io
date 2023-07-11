@@ -109,17 +109,17 @@ body {
   font-size: 4rem;
 }
 
-.social {
+.headers-container .headers .social {
   list-style-type: none;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
-.social a i {
+.headers-container .headers .social a i {
   color: #f2f2f2;
-  margin-right: 2rem;
+  margin-right: 2.5rem;
 }
 
-.social a i:hover {
+.headers-container .headers .social a i:hover {
   color: #d2bfb7;
 }
 
@@ -256,17 +256,17 @@ body {
   font-size: 3rem;
 }
 
-.social {
+.small-headers-container .headers .social {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
-.social a i {
+.small-headers-container .headers .social a i {
   color: #f2f2f2;
-  margin-right: 2rem;
+  margin-right: 2.5rem;
 }
 
-.social a i:hover {
+.small-headers-container .headers .social a i:hover {
   color: #d2bfb7;
 }
 
