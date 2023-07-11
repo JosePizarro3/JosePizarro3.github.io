@@ -253,7 +253,7 @@ body {
 
 .small-headers-container h1 {
   color: #d2bfb7;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .small-headers-container .headers .social {
@@ -279,7 +279,34 @@ body {
 }
 
 .subpage-info.contact {
-  height: 50vh;
+  height: 60vh;
+}
+
+.subpage-info.research {
+  height: 200vh;
+}
+
+.subpage-info.research figure {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subpage-info.research figure img {
+  max-width: 25rem;
+}
+
+.subpage-info.research figure figcaption {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  padding: 0;
+  text-align: center;
+  max-width: 20rem;
 }
 
 .subpage-info h1 {
@@ -288,7 +315,29 @@ body {
 }
 
 .subpage-info h3 {
+  font-size: 2.5rem;
+}
+
+.subpage-info p {
   font-size: 1.5rem;
+}
+
+.subpage-info p a {
+  text-decoration: none;
+  color: #D08770;
+}
+
+.subpage-info ul {
+  font-size: 1.1rem;
+}
+
+.subpage-info ul li {
+  margin-bottom: 1rem;
+}
+
+.subpage-info ul li a {
+  text-decoration: none;
+  color: #D08770;
 }
 
 .general-info {

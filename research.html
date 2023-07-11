@@ -38,12 +38,72 @@
             </div>
         </header>
 
-        <div class="subpage-info">
+        <div class="subpage-info research">
             <h1>Research</h1>
-            <h3>Research topic #1</h3>
             <p>
-                Description of my latest (Data Management and FAIRmat), recent (Twisted systems), and past (high-Tc superconductors) research activities.
+                During my scientific career, I investigated the role of electronic correlations for different materials.
+                I always tried to:
             </p>
+            <ul>
+                <li>
+                    Study the role of the electronic correlations in high-Tc superconductors.
+                </li>
+                <li>
+                    Explore electronic-structure phases and propose new and easy-to-do experiments to verify my findings.
+                </li>
+                <li>
+                    Help experimental colleagues with the theoretical background behind their data.
+                </li>
+                <li>
+                    Data management following the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
+                </li>
+            </ul>
+
+            <h3>Mott physics in high-Tc superconductors</h3>
+            <p>
+                The main activity of my career is to study and propose novel experiments for understanding the physics of 
+                <a href="https://en.wikipedia.org/wiki/Mott_insulator">Mott insulators</a> and Hund's metals. These 
+                electronic-structure states are known to be intimately related with high-Tc superconducting states. 
+                Thus, understanding these states is a key ingredient to solve the long-standing problem of high-Tc superconductivity.
+            </p>
+            <figure>
+                <div class="img-container">
+                    <img src="components/chromiumdiagram.png" alt="FAIR data wheel">
+                    <figcaption>
+                        My collaborators and I proposed to search for high-Tc superconductivity in chromium pnictides due
+                        to their similarity with the iron-based superconductors.
+                    </figcaption>
+                </div>
+            </figure>
+
+            <h3>Code development</h3>
+            <p>
+                Solving and understanding the electrons behavior in high-Tc superconductors is computationally very demanding. The 
+                main model that I solved was the <a href="https://en.wikipedia.org/wiki/Hubbard_model">Hubbard model</a>. 
+                This is a model that has been known for decades but whose exact solution is not possible to obtain, so it
+                often implies developing new approximations and methodologies to get solutions for it. Thus I worked
+                on implementing new approximations, e.g.,
+                <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.72.205124">Slave-spin mean-field</a> method,
+                and optimizing the code defining new algorithms and with massive parallelization.
+            </p>
+
+            <h3>Data management and FAIR principles</h3>
+            <p>
+                Currently, I am working in Data Management for Materials Scientists. My goal is to provide service,
+                using <a href="https://nomad-lab.eu/nomad-lab/">NOMAD-lab</a>, to calculations that are computationally
+                demanding (such as the ones I studied during my career). In order to do that, I am working in the
+                <a href="https://www.fairmat-nfdi.eu/fairmat/">FAIRmat consortium</a>, where I try to organize data following 
+                the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
+            </p>
+            <figure>
+                <div class="img-container">
+                    <img src="components/fairdatawheel.png" alt="FAIR data wheel">
+                    <figcaption>
+                        Modern data life cycle. By following the FAIR principles, the data can be further reuse, expanding
+                        thus its life.
+                    </figcaption>
+                </div>
+            </figure>
         </div>
 
         <footer id="footer">
