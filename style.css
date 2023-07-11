@@ -163,7 +163,7 @@ body {
 
 .subpartA {
   flex: 0.5;
-  padding-right: 200px;
+  padding-right: 100px;
 }
 
 .subpartA h3 {
@@ -277,8 +277,8 @@ body {
   text-align: left;
   overflow: hidden;
   padding: 2rem;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
   margin-bottom: 5rem;
   z-index: 10;
 }
