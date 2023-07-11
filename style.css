@@ -161,6 +161,7 @@ body {
 
 .subpartA {
   flex: 0.5;
+  padding-right: 200px;
 }
 
 .subpartA h3 {
