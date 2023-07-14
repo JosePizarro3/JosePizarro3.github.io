@@ -37,3 +37,37 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// Check if the user has visited the page before
+if (localStorage.getItem('visited') !== 'true') {
+  // Set visited flag to true
+  localStorage.setItem('visited', 'true');
+  
+  // Wait for the DOM to load
+  document.addEventListener('DOMContentLoaded', function() {
+    // Create the pop-up element
+    var popup = document.createElement('div');
+    popup.classList.add('popup');
+  
+    // Create the close button
+    var closeButton = document.createElement('span');
+    closeButton.innerHTML = '&times;';
+    closeButton.classList.add('close-button');
+  
+    // Create the message
+    var message = document.createElement('p');
+    message.textContent = 'This website is currently under development. You can take already while I finish it 😊';
+  
+    // Add the close button and message to the pop-up element
+    popup.appendChild(closeButton);
+    popup.appendChild(message);
+  
+    // Append the pop-up element to the body
+    document.body.appendChild(popup);
+  
+    // Add event listener to close the pop-up when the close button is clicked
+    closeButton.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
+  });
+}
