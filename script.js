@@ -56,7 +56,7 @@ if (localStorage.getItem('visited') !== 'true') {
   
     // Create the message
     var message = document.createElement('p');
-    message.textContent = 'This website is currently under development. You can take already while I finish it 😊';
+    message.textContent = 'This website is currently under development. You can already take a look while I finish it 😊';
   
     // Add the close button and message to the pop-up element
     popup.appendChild(closeButton);
