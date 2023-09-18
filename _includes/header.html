@@ -1,0 +1,45 @@
+<header id="header">
+    <div class="menu-header">
+        <div class="icon">
+            <img src="components/favicon.ico">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="talks_publications.html">Talks and Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    {% if page.small_header %}
+    <div class="small-headers-container">
+        <div class="headers">
+            <h1>Dr. José M. Pizarro</h1>
+            <ul class="social">
+                <li>
+                    <a href="https://www.linkedin.com/in/jose-pizarro-blanco-68931ab3/" title="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/JosePizarro3" title="GitHub profile"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/JosePizarroB" title="Twitter profile"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% else %}
+    <div class="headers-container">
+        <div class="headers">
+            <h1>José M. Pizarro</h1>
+            <h2>Ph.D. in Physics</h2>
+            <ul class="social">
+                <li>
+                    <a href="https://www.linkedin.com/in/jose-pizarro-blanco-68931ab3/" title="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/JosePizarro3" title="GitHub profile"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/JosePizarroB" title="Twitter profile"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+    
+</header>

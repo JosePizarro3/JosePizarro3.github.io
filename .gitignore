@@ -8,3 +8,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Jekyll static pages
+_site

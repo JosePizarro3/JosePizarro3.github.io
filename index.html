@@ -1,80 +1,34 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Dr. Jose M. Pizarro</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" href="components/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <header id="header">
-            <div class="menu-header">
-                <div class="icon">
-                    <img src="components/favicon.ico">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="talks_publications.html">Talks and Publications</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="headers-container">
-                <div class="headers">
-                    <h1>José M. Pizarro</h1>
-                    <h2>Ph.D. in Physics</h2>
-                    <ul class="social">
-                        <li>
-                            <a href="https://www.linkedin.com/in/jose-pizarro-blanco-68931ab3/" title="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/JosePizarro3" title="GitHub profile"><i class="fab fa-github"></i></a>
-                            <a href="https://twitter.com/JosePizarroB" title="Twitter profile"><i class="fab fa-twitter"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
-        <div class="summary">
-            <div class="summary-item part1">
-                <img src="components/updated_photo.jpg" alt="JMPizarro photo 2022">
-            </div>
-            <div class="summary-item part2">
-                <div class="subpartA">
-                    <h3>About me</h3>
-                    <p>
-                        I am a doctor in Physics by the Universidad Autónoma of Madrid, Spain since 2019. 
-                        I am an expert in Materials Science, with a focus on Computational Methods applied to real materials. 
-                        I worked as a Postdoctoral Research Associate in Bremen and Hamburg, and now, I am working in Software 
-                        Development and Data Management in the FAIRmat project, at the Humboldt University of Berlin.
-                    </p>
-                    <p>
-                        I am passionate about Science and software development. You can find the details about my 
-                        <a href="research.html">research</a> in the top-right menu. You can also check my <a href="https://github.com/JosePizarro3" title="GitHub profile">GitHub profile</a> 
-                        to see the latest developments I have been involved with.
-                        I also enjoy sharing my experience and being active on <a href="https://twitter.com/JosePizarroB" title="Twitter profile">Twitter</a>.
-                    </p>
-                    <p> 
-                        Feel free to get in touch by navigating to the <a href="contact.html">contact</a> page. You can also download
-                        an updated version of my Resume here:
-                    </p>
-                </div>
-                <div class="subpartB">
-                    <button class="download-button" onclick="downloadResume()" title="Go to my Resume PDF document">
-                        <i class="fas fa-download"></i>Download my Resume
-                    </button>
-                </div>
-            </div>
+---
+layout: default
+---
+<div class="summary">
+    <div class="summary-item part1">
+        <img src="components/updated_photo.jpg" alt="JMPizarro photo 2022">
+    </div>
+    <div class="summary-item part2">
+        <div class="subpartA">
+            <h3>About me</h3>
+            <p>
+                I am a doctor in Physics by the Universidad Autónoma of Madrid, Spain since 2019. 
+                I am an expert in Materials Science, with a focus on Computational Methods applied to real materials. 
+                I worked as a Postdoctoral Research Associate in Bremen and Hamburg, and now, I am working in Software 
+                Development and Data Management in the FAIRmat project, at the Humboldt University of Berlin.
+            </p>
+            <p>
+                I am passionate about Science and software development. You can find the details about my 
+                <a href="research.html">research</a> in the top-right menu. You can also check my <a href="https://github.com/JosePizarro3" title="GitHub profile">GitHub profile</a> 
+                to see the latest developments I have been involved with.
+                I also enjoy sharing my experience and being active on <a href="https://twitter.com/JosePizarroB" title="Twitter profile">Twitter</a>.
+            </p>
+            <p> 
+                Feel free to get in touch by navigating to the <a href="contact.html">contact</a> page. You can also download
+                an updated version of my Resume here:
+            </p>
         </div>
-
-        <footer id="footer">
-            <div class="footer-content">
-                <button id="scrollToTop" title="Back to top"><i class="fas fa-arrow-up"></i></button>
-                <p>&copy; 2023 - Design by Dr. José M. Pizarro</p>
-            </div></footer>
-    </body>
-</html>
+        <div class="subpartB">
+            <button class="download-button" onclick="downloadResume()" title="Go to my Resume PDF document">
+                <i class="fas fa-download"></i>Download my Resume
+            </button>
+        </div>
+    </div>
+</div>

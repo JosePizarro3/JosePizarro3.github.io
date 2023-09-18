@@ -1,113 +1,69 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Dr. Jose M. Pizarro</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" href="components/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <header id="header">
-            <div class="menu-header">
-                <div class="icon">
-                    <img src="components/favicon.ico">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="talks_publications.html">Talks and Publications</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="small-headers-container">
-                <div class="headers">
-                    <h1>Dr. José M. Pizarro</h1>
-                    <ul class="social">
-                        <li>
-                            <a href="https://www.linkedin.com/in/jose-pizarro-blanco-68931ab3/" title="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/JosePizarro3" title="GitHub profile"><i class="fab fa-github"></i></a>
-                            <a href="https://twitter.com/JosePizarroB" title="Twitter profile"><i class="fab fa-twitter"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+---
+layout: default
+small_header: true
+---
+<div class="subpage-info research">
+    <h1>Research</h1>
+    <p>
+        During my career, I investigated the role of electronic correlations in different materials, mainly high-Tc
+        superconductors (cuprates, iron-based superconductors, twisted bilayer graphene). I always tried to:
+    </p>
+    <ul>
+        <li>
+            Explore electronic-structure phases and propose new and easy-to-do experiments to verify my findings.
+        </li>
+        <li>
+            Help experimental colleagues with the theoretical background behind their data.
+        </li>
+        <li>
+            Perform outstanding data management following the F.A.I.R. principles.
+        </li>
+    </ul>
 
-        <div class="subpage-info research">
-            <h1>Research</h1>
-            <p>
-                During my career, I investigated the role of electronic correlations in different materials, mainly high-Tc
-                superconductors (cuprates, iron-based superconductors, twisted bilayer graphene). I always tried to:
-            </p>
-            <ul>
-                <li>
-                    Explore electronic-structure phases and propose new and easy-to-do experiments to verify my findings.
-                </li>
-                <li>
-                    Help experimental colleagues with the theoretical background behind their data.
-                </li>
-                <li>
-                    Perform outstanding data management following the F.A.I.R. principles.
-                </li>
-            </ul>
-
-            <h3>Mott physics in high-Tc superconductors</h3>
-            <p>
-                My main scientific activity has been to study and propose novel experiments for understanding the physics of 
-                <a href="https://en.wikipedia.org/wiki/Mott_insulator">Mott insulators</a> and Hund's metals. These 
-                electronic-structure states are known to be intimately related with high-Tc superconducting phases. 
-                Thus, understanding these states is a key ingredient to solve the long-standing problem of high-Tc superconductivity.
-            </p>
-            <figure>
-                <div class="img-container">
-                    <img src="components/chromiumdiagram.png" alt="FAIR data wheel">
-                    <figcaption>
-                        My collaborators and I proposed to search for high-Tc superconductivity in chromium pnictides due
-                        to their similarity with the iron-based superconductors.
-                    </figcaption>
-                </div>
-            </figure>
-
-            <h3>Code development</h3>
-            <p>
-                Solving and understanding electrons behavior in high-Tc superconductors is computationally very demanding. The 
-                main model that I solved was the <a href="https://en.wikipedia.org/wiki/Hubbard_model">Hubbard model</a> and extensions of it. 
-                This is a model that has been known for decades but whose exact solution is not possible to obtain, so it
-                often implies developing new approximations and methodologies to reach meaningful solutions. Thus I worked
-                on implementing new approximations, e.g., the
-                <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.72.205124">slave-spin mean-field</a> method,
-                and on optimizing the code defining new algorithms and using massive parallelization.
-            </p>
-
-            <h3>Data management and FAIR principles</h3>
-            <p>
-                As of 2023, I am working in Data Management and I am involved in Data Science activities. My goal is to
-                provide service,
-                using the <a href="https://nomad-lab.eu/nomad-lab/">NOMAD Archive & Repository</a>, for calculations that are computationally
-                demanding (such as the ones I studied during my career). In order to do that, I am working in the
-                <a href="https://www.fairmat-nfdi.eu/fairmat/">consortium FAIRmat</a>, where I try to organize data following 
-                the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
-            </p>
-            <figure>
-                <div class="img-container">
-                    <img src="components/fairdatawheel.png" alt="FAIR data wheel">
-                    <figcaption>
-                        Modern data life cycle: by following the FAIR principles, the data can be further reuse, expanding
-                        thus its life.
-                    </figcaption>
-                </div>
-            </figure>
+    <h3>Mott physics in high-Tc superconductors</h3>
+    <p>
+        My main scientific activity has been to study and propose novel experiments for understanding the physics of 
+        <a href="https://en.wikipedia.org/wiki/Mott_insulator">Mott insulators</a> and Hund's metals. These 
+        electronic-structure states are known to be intimately related with high-Tc superconducting phases. 
+        Thus, understanding these states is a key ingredient to solve the long-standing problem of high-Tc superconductivity.
+    </p>
+    <figure>
+        <div class="img-container">
+            <img src="components/chromiumdiagram.png" alt="FAIR data wheel">
+            <figcaption>
+                My collaborators and I proposed to search for high-Tc superconductivity in chromium pnictides due
+                to their similarity with the iron-based superconductors.
+            </figcaption>
         </div>
+    </figure>
 
-        <footer id="footer">
-            <div class="footer-content">
-                <button id="scrollToTop" title="Back to top"><i class="fas fa-arrow-up"></i></button>
-                <p>&copy; 2023 - Design by Dr. José M. Pizarro</p>
-            </div></footer>
-    </body>
-</html>
+    <h3>Code development</h3>
+    <p>
+        Solving and understanding electrons behavior in high-Tc superconductors is computationally very demanding. The 
+        main model that I solved was the <a href="https://en.wikipedia.org/wiki/Hubbard_model">Hubbard model</a> and extensions of it. 
+        This is a model that has been known for decades but whose exact solution is not possible to obtain, so it
+        often implies developing new approximations and methodologies to reach meaningful solutions. Thus I worked
+        on implementing new approximations, e.g., the
+        <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.72.205124">slave-spin mean-field</a> method,
+        and on optimizing the code defining new algorithms and using massive parallelization.
+    </p>
+
+    <h3>Data management and FAIR principles</h3>
+    <p>
+        As of 2023, I am working in Data Management and I am involved in Data Science activities. My goal is to
+        provide service,
+        using the <a href="https://nomad-lab.eu/nomad-lab/">NOMAD Archive & Repository</a>, for calculations that are computationally
+        demanding (such as the ones I studied during my career). In order to do that, I am working in the
+        <a href="https://www.fairmat-nfdi.eu/fairmat/">consortium FAIRmat</a>, where I try to organize data following 
+        the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
+    </p>
+    <figure>
+        <div class="img-container">
+            <img src="components/fairdatawheel.png" alt="FAIR data wheel">
+            <figcaption>
+                Modern data life cycle: by following the FAIR principles, the data can be further reuse, expanding
+                thus its life.
+            </figcaption>
+        </div>
+    </figure>
+</div>
