@@ -188,7 +188,7 @@ body {
 
 .subpartA {
   flex: 0.5;
-  padding-right: 100px;
+  padding-right: 200px;
 }
 
 .subpartA h3 {
@@ -269,7 +269,7 @@ body {
 
 /* Smaller header for other sections rather than Home */
 .small-headers-container {
-  background-color: #193141;
+  background-color: rgb(25, 49, 65);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,6 +301,34 @@ body {
 
 .small-headers-container .headers .social a i:hover {
   color: #d2bfb7;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
+  margin-top: 2rem; 
+}
+
+.research-grid h3, .research-grid .topic-content {
+  margin: 0; 
+}
+
+.research-grid .topic-content {
+  margin-top: 1rem; 
+}
+
+.research-card {
+  background-color: #fafafa; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(25, 49, 65, 0.2); 
+  padding: 1.5rem; 
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.research-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 6px 12px rgba(25, 49, 65, 0.5); 
 }
 
 .subpage-info {

@@ -20,8 +20,12 @@ small_header: true
         </li>
     </ul>
 
-    {% for topic in site.research %}
-    <h3>{{ topic.title }}</h3>
-    {{ topic.content }}
-    {% endfor %}
+    <div class="research-grid">
+        {% for topic in site.research %}
+        <div class="research-card">
+            <h3>{{ topic.title }}</h3>
+            <div class="topic-content">{{ topic.content | markdowninify }}</div>
+        </div>
+        {% endfor %}
+    </div>
 </div>
