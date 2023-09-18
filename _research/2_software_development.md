@@ -1,5 +1,5 @@
 ---
-title: Software development
+title: Software Development
 ---
 
 Solving and understanding electrons behavior in high-Tc superconductors is computationally very demanding. The 

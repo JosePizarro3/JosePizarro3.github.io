@@ -1,5 +1,5 @@
 ---
-title: Data management
+title: Data Management
 ---
 
 A key aspect of Science that is often overlooked is the management of the data that is produced. Following a set of good practices 
