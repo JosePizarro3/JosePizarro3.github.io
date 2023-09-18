@@ -4,21 +4,14 @@ small_header: true
 ---
 <div class="subpage-info news">
     <h1>Latest news</h1>
-    <div class="new">
-        <h3>FAIRmat Tutorial 10 available online</h3>
-        <p id="p-news">
-            On June 14th, 2023, I presented a tutorial on using NOMAD for electronic-structure FAIR data.
-        </p>
-        <p>
-            If you
-            are interested on learning about how to make your electronic-structure calculation data more FAIR, visit
-            <a href="https://www.fairmat-nfdi.eu/events/fairmat-tutorial-10/tutorial-10-home">FAIRmat website</a>
-            to see all the materials: presentations, examples, and the
-            <a href="https://www.youtube.com/playlist?list=PLrRaxjvn6FDUsgbVpSBaqsdTI77PYEPPM">Youtube playlist</a>.
-        </p>
-        <div class="news-date">
-            Published July 11, 2023
+    {% for post in site.posts %}
+        <div class="new">
+            <h3>{{ post.title }}</h3>
+            {{ post.content }}
+            <div class="news-date">
+                Published {{ post.date | date: "%B %d, %Y" }}
+            </div>
+            <hr>
         </div>
-        <hr>
-    </div>
+    {% endfor %}
 </div>

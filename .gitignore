@@ -11,3 +11,4 @@ venv.bak/
 
 # Jekyll static pages
 _site
+.jekyll-cache
