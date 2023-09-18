@@ -1,20 +1,101 @@
-/* Body styles */
+/* Reset and Globals */
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  overflow-x: hidden;
   background-color: #f2f2f2;
   font-family: 'Titillium Web';
+  overflow-x: hidden;
+  min-height: 100%;
+  transition: background-color 0.2s ease;
 }
 
+/* Dark-mode */
+body.dark-mode {
+  background-color: #222222;
+  color: #f2f2f2;
+}
+
+body.dark-mode .menu-header, 
+body.dark-mode .headers-container, 
+body.dark-mode .small-headers-container {
+  background-color: hwb(204 10% 85%);
+}
+
+body.dark-mode a, 
+body.dark-mode .menu ul li a {
+  color: #f2f2f2;
+}
+
+body.dark-mode .menu ul li a:hover {
+  background-color: #d2bfb7;
+  color: #222222;
+}
+
+body.dark-mode .research-card {
+  background-color: #2a2a2a; 
+}
+
+body.dark-mode h1 {
+  color: #f2f2f2
+}
+
+body.dark-mode #footer {
+  background-color: hwb(0 13% 95%);
+}
+
+.floating-dark-mode {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgb(242, 242, 242);
+  color: #222222;
+  padding: 1rem;
+  border-radius: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.floating-dark-mode:hover {
+  background-color: #d2bfb7;
+}
+
+body.dark-mode .floating-dark-mode {
+  color: #222222;
+  box-shadow: 0 0 10px rgba(242, 242, 242, 0.5);
+}
+
+/* Common patterns */
+button, .button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+}
+
+a[href]:hover {
+  color: #be674c;
+}
+
+/* Pop-up */
 .popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(242, 242, 242, 0.8);
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 10px;
   box-shadow: 0 0 10px #222222;
   font-size: 1.5rem;
@@ -24,9 +105,10 @@ body {
 .close-button {
   position: absolute;
   top: -20px;
-  right: 10px;
+  right: 0.75rem;
   font-size: 3rem;
   cursor: pointer;
+  color: #222222;
 }
 
 .close-button:hover {
@@ -40,12 +122,13 @@ body {
   left: 0;
   right: 0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #193141;
   overflow: hidden;
   font-size: 1.2rem;
-  justify-content: space-between;
-  z-index: 100; /* Ensure it's above other elements */
-  transition: background-color 1.5s ease; /* Add transition property */
+  z-index: 100;
+  transition: background-color 1.5s ease; 
 }
 
 .menu-header.scrolled {
@@ -55,6 +138,7 @@ body {
 .menu-header .icon {
   display: flex;
   align-items: center;
+  padding-left: 2rem;
   transition: opacity 1.5s ease; /* Add transition property */
 }
 
@@ -63,36 +147,27 @@ body {
 }
 
 .icon img {
-  margin-right: 10px;
+  margin-right: 1rem;
   max-width: 2.5rem;
   max-height: 2.5rem;
-  margin-left: 2rem
-}
-
-.menu {
-  display: flex;
-  align-items: center;
 }
 
 .menu ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  margin: 0;
 }
 
 .menu ul li {
-  margin-left: 20px; /* Change margin-left to margin-right */
-  margin-right: 30px;
+  margin: 0 1.5rem;
 }
 
 .menu ul li a {
   display: flex;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px; /* Remove margin-right from the last item in the list */
-  text-decoration: none;
+  padding: 14px 16px;
 }
 
 .menu ul li a:hover {
@@ -103,7 +178,7 @@ body {
   text-underline-offset: 5px;
 }
 
-.menu ul li a.active { /* Add styles for the active link */
+.menu ul li a.active {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
