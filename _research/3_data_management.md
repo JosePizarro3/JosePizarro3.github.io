@@ -2,12 +2,16 @@
 title: Data management
 ---
 
-As of 2023, I am working in Data Management and I am involved in Data Science activities. My goal is to
-provide service,
-using the <a href="https://nomad-lab.eu/nomad-lab/">NOMAD Archive & Repository</a>, for calculations that are computationally
-demanding (such as the ones I studied during my career). In order to do that, I am working in the
-<a href="https://www.fairmat-nfdi.eu/fairmat/">consortium FAIRmat</a>, where I try to organize data following 
-the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
+A key aspect of Science that is often overlooked is the management of the data that is produced. Following a set of good practices 
+in Data Management is very important to keep the data that we, scientists, produce in a consistent way. Furthermore, it allows to 
+exploit the capabilities of Artificial Intelligence and Machine-Learning techniques, possibly opening new routes to find new materials
+or to explain long-standing problems, such as the one of high-T<sub>c</sub> superconductivity.
+
+Since 2023, I am working in Data Management and I am involved in Data Science activities for strongly correlated materials. My goal is to
+provide a service for the scientific community. I develop the software behind the <a href="https://nomad-lab.eu/nomad-lab/">NOMAD Archive & Repository</a>, 
+for computations in strongly correlated materials. In order to do that, I follow the <a href="https://www.go-fair.org/fair-principles/">F.A.I.R. principles</a>, i.e.,
+data has to be organized to be Findable, Accessible, Interoperable, and Reusable.
+
 <figure>
     <div class="img-container">
         <img src="assets/images/fairdatawheel.png" alt="FAIR data wheel">
