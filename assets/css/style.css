@@ -309,6 +309,15 @@ a[href]:hover {
   background-color: #222222;
 }
 
+.download-button.talk {
+  justify-content: center;
+}
+
+.download-button.talk i {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
 /* Footer section */
 #footer {
   background-color: #222222;

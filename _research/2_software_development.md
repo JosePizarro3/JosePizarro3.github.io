@@ -20,7 +20,7 @@ solving the Hubbard model by solving the equivalent quantum embedded problem.
         <figcaption>
             DFT band structure calculated for NdNiO<sub>2</sub> and CaCuO<sub>2</sub> and lower energy projection into a
             Wannier tight-binding model, extracted from 
-            <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.021061">J. Karp et al., Phys. Rev. X 10, 021061 (2020)</a>.
+            <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.021061">J. Karp et al., Phys. Rev. X <b>10</b>, 021061 (2020)</a>.
             This shows an example of reducing the original DFT degrees of freedom to make the problem more tractable
             by quantum embedded theories.
         </figcaption>

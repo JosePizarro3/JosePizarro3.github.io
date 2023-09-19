@@ -1,8 +1,8 @@
 /**
- * Allows to download the Resume from the location href.
+ * Allows to download the file from the location href.
  */
-function downloadResume() {
-    window.location.href = 'assets/CV_JoseMPizarro.pdf'
+function downloadFile(file) {
+    window.location.href = file
 }
 /**
  * Covers the top menu and top=left icon with a dark background when scrolling down
