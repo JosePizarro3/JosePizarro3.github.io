@@ -11,13 +11,3 @@ Since 2023, I am working in Data Management and I am involved in Data Science ac
 provide a service for the scientific community. I develop the software behind the <a href="https://nomad-lab.eu/nomad-lab/">NOMAD Archive & Repository</a>, 
 for computations in strongly correlated materials. In order to do that, I follow the <a href="https://www.go-fair.org/fair-principles/">F.A.I.R. principles</a>, i.e.,
 data has to be organized to be Findable, Accessible, Interoperable, and Reusable.
-
-<figure>
-    <div class="img-container">
-        <img src="assets/images/fairdatawheel.png" alt="FAIR data wheel">
-        <figcaption>
-            Modern data life cycle: by following the FAIR principles, the data can be further reuse, expanding
-            thus its life.
-        </figcaption>
-    </div>
-</figure>

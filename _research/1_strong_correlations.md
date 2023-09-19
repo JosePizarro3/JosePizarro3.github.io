@@ -13,7 +13,7 @@ real world applications.
 
 <figure>
     <div class="img-container">
-        <img src="assets/images/chromiumdiagram.png" alt="FAIR data wheel">
+        <img src="assets/images/chromiumdiagram.png" alt="Chromium pnictides phase diagram.">
         <figcaption>
             My collaborators and I proposed to search for high-T<sub>c</sub> superconductivity in chromium pnictides 
             based on their potentially similar behavior with another class of high-T<sub>c</sub> superconductors, the
