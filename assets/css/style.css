@@ -272,11 +272,11 @@ a[href]:hover {
 }
 
 .subpartA h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .subpartA p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -393,7 +393,7 @@ a[href]:hover {
 }
 
 .subpage-info ul li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .subpage-info {
@@ -422,7 +422,7 @@ a[href]:hover {
 }
 
 .subpage-info.research figure figcaption {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
   padding: 0;
   text-align: center;
@@ -430,16 +430,16 @@ a[href]:hover {
 }
 
 .subpage-info h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #193141;
 }
 
 .subpage-info h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .subpage-info p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .subpage-info p a {
@@ -448,7 +448,7 @@ a[href]:hover {
 }
 
 .subpage-info ul {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .subpage-info ul li {
@@ -476,7 +476,7 @@ a[href]:hover {
 }
 
 .research-grid .research-card h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .research-card {
@@ -505,7 +505,7 @@ a[href]:hover {
 }
 
 .general-info p, .email-info p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
   margin-bottom: -2rem;
 }
