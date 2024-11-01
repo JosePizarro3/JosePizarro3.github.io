@@ -1,21 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Dr. Jose M. Pizarro</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
-        <script src="assets/js/script.js"></script>
-    </head>
-    <body>
-        {% include header.html %}
+---
+layout: compress
+---
 
-        {{ content }}
+{% include base_path %}
 
-        <!-- {% include floating_dark_mode.html %} -->
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
         {% include footer.html %}
-    </body>
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
 </html>

@@ -1,10 +1,9 @@
 ---
 title: FAIR Data Management for Materials Scientists using NOMAD
-conference: Colloquium series on Research Data Management
-web: https://www.tu-darmstadt.de/
-city: Darmstadt
-country: Germany
-year: 2024
-# asset_address: assets/docs/20230806_PizarroJoseM_Howexciting2023.pptx
+collection: talks
+type: "Talk"
+venue: "Colloquium series on Research Data Management"
+location: "Darmstadt, Germany"
 date: 2024-01-29
+<!-- asset_address: assets/docs/20230619_PizarroJoseM_TutorialLucianDMFT.pptx -->
 ---

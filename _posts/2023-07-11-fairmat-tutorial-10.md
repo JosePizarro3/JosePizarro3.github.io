@@ -1,6 +1,9 @@
 ---
 title: "FAIRmat Tutorial 10 available online"
 date: 2023-07-11
+permalink: /posts/2023/07/11/fairmat-tuto10/
+tags:
+  - cool posts
 ---
 
 On June 14th, 2023, I presented a tutorial on using NOMAD for electronic-structure F.A.I.R. data.
