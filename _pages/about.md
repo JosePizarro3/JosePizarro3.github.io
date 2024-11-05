@@ -75,9 +75,9 @@ Furthermore, this implies using several different tools to obtain solutions of t
     <div class="img-container">
         <img src="images/dft_wannier.png" alt="DFT and Wannier model." class="center">
         <figcaption>
-            DFT band structure calculated for NdNiO<sub>2</sub> and CaCuO<sub>2</sub> and lower energy projection into a
+            Electronic band structure calculated for twisted and non-twisted 1T-TaSe<sub>2</sub>and lower energy projection into a
             Wannier tight-binding model, extracted from 
-            <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.021061">J. Karp et al., Phys. Rev. X <b>10</b>, 021061 (2020)</a>.
+            <a href="https://www.nature.com/articles/s41535-020-00277-3">J.M. Pizarro et al., npj Quantum Materials <b>5</b>, 79 (2020)</a>.
             This shows an example of reducing the original DFT degrees of freedom to make the problem more tractable
             by interacting many-body quantum theories.
         </figcaption>
